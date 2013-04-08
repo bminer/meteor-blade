@@ -2,9 +2,9 @@
 	"name": "blade",
 	"author": "Blake Miner <miner.blake@gmail.com> (http://www.blakeminer.com/)",
 	"description": "Blade - HTML Template Compiler, inspired by Jade & Haml",
-	"homepage": "https://github.com/bminer/node-blade",
-	"version": "3.2.2meteor1",
-	"git": "https://github.com/bminer/node-blade.git",
+	"homepage": "https://github.com/bminer/meteor-blade",
+	"version": "3.2.2meteor2",
+	"git": "https://github.com/bminer/meteor-blade.git",
 	"packages": {
 	}
 }
