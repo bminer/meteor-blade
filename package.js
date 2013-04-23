@@ -2,7 +2,7 @@ Package.describe({
 	summary: "Blade - HTML Template Compiler, inspired by Jade & Haml"
 });
 
-Npm.depends({"blade": "3.2.2"});
+Npm.depends({"blade": "3.2.5"});
 
 Package.register_extension("blade", function(bundle, srcPath, servePath, where) {
 	var path = Npm.require("path"),
