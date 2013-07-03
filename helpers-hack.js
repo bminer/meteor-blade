@@ -10,9 +10,10 @@ Meteor.startup(function() {
 				helperName != "unless" &&
 				helperName != "with"
 			)
-				partial[helperName] = function() {
+				/*partial[helperName] = function() {
 					return helper({"hash": {} });
-				};
+				};*/
+				partial[helperName] = helper;
 		});
 	});
 });
